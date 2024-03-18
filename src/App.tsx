@@ -36,7 +36,12 @@ const App = () => {
 
   return (
     <>
-      <Typography variant="h4" component="h1" sx={{ mb: 4 }}>
+      <Typography
+        component="h1"
+        variant="h4"
+        color="black"
+        sx={{ mb: 4 }}
+      >
         Dutch cities
       </Typography>
       <SearchBar

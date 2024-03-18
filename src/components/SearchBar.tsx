@@ -18,7 +18,7 @@ export const SearchBar = ({
   return (
     <Paper
       component="form"
-      sx={{ display: 'flex', alignItems: 'center', width: 600 }}
+      sx={{ display: 'flex', alignItems: 'center', width: 600, mb: 4 }}
     >
       <InputBase
         sx={{ ml: 1, flex: 1 }}
