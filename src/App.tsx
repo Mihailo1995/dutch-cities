@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+import { Typography } from '@mui/material'
+
 import dutchCities from './api/nl.json'
 import { SearchBar } from './components/SearchBar'
 import { CitiesTable } from './components/CitiesTable'
@@ -34,6 +36,9 @@ const App = () => {
 
   return (
     <>
+      <Typography variant="h4" component="h1" sx={{ mb: 4 }}>
+        Dutch cities
+      </Typography>
       <SearchBar
         value={term}
         onChange={(e) => setTerm(e.target.value)}
